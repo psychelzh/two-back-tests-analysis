@@ -15,8 +15,12 @@ BugReports: https://github.com/psychelzh/two-back-tests-analysis/issues
 Depends: 
     tidyverse
 Imports: 
+    dataproc.iquizoo (>= 1.0.2),
     tarchetypes,
-    targets
+    targets,
+    vroom
+Remotes: 
+    psychelzh/dataproc.iquizoo
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
