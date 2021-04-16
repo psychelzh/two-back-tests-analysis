@@ -1,0 +1,8 @@
+library(targets)
+library(tarchetypes)
+purrr::walk(fs::dir_ls("R"), source)
+tar_option_set(packages = "tidyverse")
+list(
+  tar_file(dir_data, fs::path("data")),
+  tar_fst_tbl(results, preproc_data(path = dir_data))
+)
