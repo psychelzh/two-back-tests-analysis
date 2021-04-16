@@ -1,7 +1,7 @@
 Package: two-back-tests-analysis
 Title: Analyze Data from Two-Back Tests
-Version: 0.0.0.9000
-Authors@R: 
+Version: 0.0.1
+Authors@R:
     person(given = "Liang",
            family = "Zhang",
            role = c("aut", "cre"),
@@ -12,14 +12,14 @@ Description: The data are collected based on the program from
 License: MIT + file LICENSE
 URL: https://github.com/psychelzh/two-back-tests-analysis
 BugReports: https://github.com/psychelzh/two-back-tests-analysis/issues
-Depends: 
+Depends:
     tidyverse
-Imports: 
+Imports:
     dataproc.iquizoo (>= 1.0.2),
     tarchetypes,
     targets,
     vroom
-Remotes: 
+Remotes:
     psychelzh/dataproc.iquizoo
 Encoding: UTF-8
 LazyData: true
