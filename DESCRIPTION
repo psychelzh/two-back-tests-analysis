@@ -1,5 +1,5 @@
 Package: two-back-tests-analysis
-Title: What the Package Does (One Line, Title Case)
+Title: Analyze Data from Two-Back Tests
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Liang",
@@ -7,9 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "psychelzh@outlook.com",
            comment = c(ORCID = "0000-0001-9041-1150"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: The data are collected based on the program from
+    psychelzh/two-back-tests. Simple analysis is done here.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
