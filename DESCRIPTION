@@ -12,6 +12,11 @@ Description: The data are collected based on the program from
 License: MIT + file LICENSE
 URL: https://github.com/psychelzh/two-back-tests-analysis
 BugReports: https://github.com/psychelzh/two-back-tests-analysis/issues
+Depends: 
+    tidyverse
+Imports: 
+    tarchetypes,
+    targets
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
