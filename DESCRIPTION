@@ -1,6 +1,6 @@
 Package: two-back-tests-analysis
 Title: Analyze Data from Two-Back Tests
-Version: 0.0.5
+Version: 0.0.6
 Authors@R:
     person(given = "Liang",
            family = "Zhang",
