@@ -23,11 +23,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-on:
-  push:
-    branches:
-      - main
-      - master
+on: push
 
 name: targets
 
