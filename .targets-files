@@ -3,3 +3,5 @@
 _targets/meta/meta
 _targets/meta/process
 _targets/meta/progress
+_targets/objects/results
+results.csv
