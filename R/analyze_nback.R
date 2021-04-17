@@ -4,7 +4,7 @@
 ##'
 ##' @title
 ##' @param path The directory contains all the data files.
-read_data <- function(path) {
+analyze_nback <- function(path) {
   files <- fs::dir_ls(path, regexp = "TwoBack")
   vroom::vroom(files, id = "path") %>%
     mutate(path = fs::path_ext_remove(path)) %>%
