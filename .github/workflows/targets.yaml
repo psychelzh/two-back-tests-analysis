@@ -123,3 +123,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: results.csv
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
